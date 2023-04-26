@@ -26,8 +26,30 @@ header {
         }
     }
 
-    .btn {
+    .btn_primary {
         background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
         color: $light;
     }
+
+    .btn_secondary {
+        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+        color: $light;
+    }
+
+    .jumbo {
+        .jumbo_left {
+            margin-top: 8rem;
+
+            h1 {
+                font-size: 3rem;
+                color: $light;
+            }
+
+            p {
+                color: $bgPrimaryGradient2;
+            }
+        }
+
+    }
+
 }

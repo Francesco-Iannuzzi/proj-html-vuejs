@@ -2,5 +2,26 @@
 
 main {
     background-color: red;
-    height: 20rem;
+
+    .our_service {
+        background-color: $light;
+
+        .our_service_title {
+            h2 {
+                font-size: 2rem;
+            }
+
+            h5 {
+                font-size: 0.8rem;
+                color: $bgSecondaryGradient1;
+            }
+
+            p {
+                font-size: 0.7rem;
+            }
+        }
+
+        .our_service_item {}
+    }
+
 }
