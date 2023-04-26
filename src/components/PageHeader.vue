@@ -1,13 +1,17 @@
 <script>
+import LogoElement from './LogoElement.vue';
+
 export default {
     name: "PageHeader",
+    components: {
+        LogoElement,
+    },
     data() {
-        return {
-
-        }
+        return {};
     },
     mounted() {
-    }
+    },
+    components: { LogoElement }
 }
 </script>
 
@@ -16,18 +20,8 @@ export default {
         <div class="container">
             <nav class="navbar navbar-expand">
                 <div class="container">
-                    <div class="logo">
-                        <a class="navbar-brand d-flex" href="#">
-                            <img src=".././assets/img/cropped-cropped-icon-270x270.png" alt="Phlox_Corporate_logo"
-                                width="40" height="40">
-                            <div class="ms-2">
-                                <h4 class="my-0">Phlox</h4>
-                                <h4 class="my-0">Corporate</h4>
-                            </div>
-                        </a>
-                    </div>
+                    <LogoElement></LogoElement>
                     <!-- /logo -->
-
                     <div class="navbar" id="navbarSupportedContent">
                         <ul class="navbar-nav me-4 mb-2 mb-lg-0">
                             <li class="nav-item">

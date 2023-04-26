@@ -3,6 +3,10 @@
 header {
     background-image: linear-gradient(to bottom right, $bgPrimaryGradient1, $dark);
 
+    .logo {
+        filter: brightness(100);
+    }
+
     h4 {
         font-size: 1rem;
         color: $light;
