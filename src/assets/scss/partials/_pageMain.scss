@@ -13,10 +13,16 @@ main {
         color: $light;
     }
 
+    .btn_tertiary {
+        background-image: linear-gradient(to right, $light, $midLight);
+        color: $bgSecondaryGradient2;
+    }
+
     .our_services {
         background-color: $light;
 
         .our_services_title {
+
             h2 {
                 font-size: 2rem;
             }
@@ -50,7 +56,122 @@ main {
             }
 
             p {
+                margin: 0;
                 color: $bgPrimaryGradient1;
+            }
+        }
+    }
+
+    .portfolio {
+        background-color: $light;
+
+        .portfolio_top {
+
+            .portfolio_title {
+                h2 {
+                    font-size: 2rem;
+                }
+
+                h5 {
+                    font-size: 0.8rem;
+                    color: $bgSecondaryGradient2;
+                }
+            }
+
+            .portfolio_button {
+                button {
+                    color: $bgSecondaryGradient2;
+                    border-color: $bgSecondaryGradient2;
+                }
+            }
+        }
+    }
+
+    .price_list {
+        background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
+        position: relative;
+
+        .price_list_title {
+
+            h2 {
+                font-size: 2rem;
+                color: $light;
+            }
+
+            h5 {
+                font-size: 0.8rem;
+                color: $bgSecondaryGradient2;
+            }
+
+            p {
+                margin: 0;
+                font-size: 0.7rem;
+                color: $light;
+            }
+        }
+
+        .price_list_plans {
+            height: 25rem;
+
+            .row {
+                padding-top: 5rem;
+
+                .col {
+                    .card {
+                        background-color: $light;
+                        border: none;
+                        border-radius: 1rem;
+                        position: relative;
+
+                        ul {
+                            list-style: none;
+                            padding: 0;
+                        }
+
+                        h2 {
+                            font-size: 2rem;
+                        }
+
+                        h5 {
+                            font-size: 0.8rem;
+                        }
+
+                        h1 {
+                            font-size: 5rem;
+                        }
+
+                        span,
+                        li {
+                            font-size: 0.8rem;
+                        }
+
+                        li {
+                            line-height: 1.5rem;
+                        }
+
+                        .number_bg {
+                            position: absolute;
+                            right: -10px;
+                            top: -60px;
+
+                            h1 {
+                                font-weight: bold;
+                                font-size: 15rem;
+                                color: $bgNumber;
+                            }
+                        }
+                    }
+                }
+
+                .col:nth-child(2) {
+
+                    .card {
+                        background-image: linear-gradient(to bottom right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+                        color: $light;
+
+                    }
+
+                }
             }
         }
     }
