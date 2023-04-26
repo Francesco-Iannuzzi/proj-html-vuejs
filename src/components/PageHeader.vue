@@ -21,15 +21,15 @@ export default {
                             <img src=".././assets/img/cropped-cropped-icon-270x270.png" alt="Phlox_Corporate_logo"
                                 width="40" height="40">
                             <div class="ms-2">
-                                <h4>Phlox</h4>
-                                <h4>Corporate</h4>
+                                <h4 class="my-0">Phlox</h4>
+                                <h4 class="my-0">Corporate</h4>
                             </div>
                         </a>
                     </div>
                     <!-- /logo -->
 
                     <div class="navbar" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-4 mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Home</a>
                             </li>
@@ -50,7 +50,7 @@ export default {
                             </li>
                         </ul>
                         <!-- /menu sections -->
-                        <button class="btn border-0" type="submit">Sign In</button>
+                        <button class="btn border-0 rounded-5 px-4">Sign In</button>
                         <!-- /sign In button -->
                     </div>
                     <!-- /navbar -->
