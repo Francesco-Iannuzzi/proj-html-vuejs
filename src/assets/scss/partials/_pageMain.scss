@@ -173,7 +173,86 @@ main {
 
                 }
             }
+
+
         }
+    }
+
+    .blog {
+        background-color: $light;
+        padding: 20rem 0 5rem 0;
+
+        .blog_title {
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            h5 {
+                font-size: 0.8rem;
+                color: $bgSecondaryGradient2;
+            }
+
+            p {
+                font-size: 0.7rem;
+            }
+        }
+
+        .row {
+
+            .col-6 {
+
+                .card {
+                    height: 20rem;
+                    background-image: url("/src/assets/img/headway-537308-unsplash-1380x703.jpg");
+                    background-size: cover;
+                    color: $light;
+                    border-radius: 1rem;
+
+                    span {
+                        font-size: 0.6rem;
+                    }
+
+                    strong {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .col-3 {
+
+                .card {
+                    height: 20rem;
+                    background-image: linear-gradient(to bottom right, $dark, $bgPrimaryGradient2);
+                    color: $light;
+                    border-radius: 1rem;
+
+                    span {
+                        font-size: 0.6rem;
+                    }
+
+                    strong {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                    }
+
+                }
+            }
+
+            .btn {
+                background-color: $light;
+                font-size: 0.8rem;
+            }
+        }
+
     }
 
 }

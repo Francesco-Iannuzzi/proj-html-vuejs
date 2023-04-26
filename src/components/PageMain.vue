@@ -2,14 +2,16 @@
 import SectionService from './SectionService.vue';
 import SectionStart from './SectionStart.vue';
 import SectionPortfolio from './SectionPortfolio.vue';
-import SectionPrice from './SectionPrice.vue'
+import SectionPrice from './SectionPrice.vue';
+import SectionBlog from './SectionBlog.vue';
 export default {
     name: "PageMain",
     components: {
         SectionService,
         SectionStart,
         SectionPortfolio,
-        SectionPrice
+        SectionPrice,
+        SectionBlog,
     },
     data() {
         return {
@@ -31,6 +33,9 @@ export default {
         <!-- /portfolio -->
         <SectionPrice></SectionPrice>
         <!-- /price_list -->
+        <SectionBlog></SectionBlog>
+        <!-- /blog -->
+
     </main>
     <!-- /main -->
 </template>
