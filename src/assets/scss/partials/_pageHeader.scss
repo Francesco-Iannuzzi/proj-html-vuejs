@@ -1,6 +1,29 @@
 @use "./variables" as *;
 
 header {
-    background-color: red;
-    height: 20rem;
+    background-image: linear-gradient(to bottom right, $bgPrimaryGradient1, $dark);
+
+    h4 {
+        font-size: 1rem;
+        color: $light;
+    }
+
+    .navbar {
+        li:first-child {
+            a {
+                color: $bgSecondaryGradient1;
+            }
+        }
+
+        li {
+            a {
+                color: $light;
+            }
+        }
+    }
+
+    .btn {
+        background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+        color: $light;
+    }
 }
