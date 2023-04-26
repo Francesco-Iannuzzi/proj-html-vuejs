@@ -3,17 +3,17 @@
 main {
     background-color: red;
 
-    .our_service {
+    .our_services {
         background-color: $light;
 
-        .our_service_title {
+        .our_services_title {
             h2 {
                 font-size: 2rem;
             }
 
             h5 {
                 font-size: 0.8rem;
-                color: $bgSecondaryGradient1;
+                color: $bgSecondaryGradient2;
             }
 
             p {
@@ -21,7 +21,13 @@ main {
             }
         }
 
-        .our_service_item {}
+        .our_services_items {}
+
+    }
+
+    .btn_secondary {
+        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+        color: $light;
     }
 
 }

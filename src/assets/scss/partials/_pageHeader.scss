@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 header {
-    background-image: linear-gradient(to bottom right, $bgPrimaryGradient1, $dark);
+    background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
 
     .logo {
         filter: brightness(100);
@@ -15,7 +15,7 @@ header {
     .navbar {
         li:first-child {
             a {
-                color: $bgSecondaryGradient1;
+                color: $bgSecondaryGradient2;
             }
         }
 
@@ -46,7 +46,7 @@ header {
             }
 
             p {
-                color: $bgPrimaryGradient2;
+                color: $bgPrimaryGradient1;
             }
         }
 
