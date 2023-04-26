@@ -3,6 +3,16 @@
 main {
     background-color: red;
 
+    .btn_primary {
+        background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+        color: $light;
+    }
+
+    .btn_secondary {
+        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+        color: $light;
+    }
+
     .our_services {
         background-color: $light;
 
@@ -21,13 +31,28 @@ main {
             }
         }
 
-        .our_services_items {}
-
     }
 
-    .btn_secondary {
-        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
-        color: $light;
+    .start_project {
+        background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
+
+        .start_project_right {
+            margin-top: 8rem;
+
+            h5 {
+                font-size: 0.8rem;
+                color: $light;
+            }
+
+            h1 {
+                font-size: 3rem;
+                color: $light;
+            }
+
+            p {
+                color: $bgPrimaryGradient1;
+            }
+        }
     }
 
 }
