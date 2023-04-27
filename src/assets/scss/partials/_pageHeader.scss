@@ -29,11 +29,21 @@ header {
     .btn_primary {
         background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
         color: $light;
+
+        &:hover {
+            background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+            color: $light;
+        }
     }
 
     .btn_secondary {
         background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
         color: $light;
+
+        &:hover {
+            background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+            color: $light;
+        }
     }
 
     .jumbo {

@@ -45,6 +45,11 @@ footer {
                     width: 30%;
                     background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
                     color: $light;
+
+                    &:hover {
+                        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+                        color: $light;
+                    }
                 }
             }
         }
@@ -88,6 +93,7 @@ footer {
     }
 
     .footer_bottom {
+        position: relative;
 
         .copyright {
 
@@ -104,5 +110,21 @@ footer {
                 color: $light;
             }
         }
+
+        .upstairs {
+            background-color: $light;
+            position: absolute;
+            top: -50px;
+            right: 10px;
+        }
+
+        .questions {
+            background-color: $bgPrimaryGradient2;
+            color: $light;
+            position: absolute;
+            top: -10px;
+            right: -50px;
+        }
+
     }
 }

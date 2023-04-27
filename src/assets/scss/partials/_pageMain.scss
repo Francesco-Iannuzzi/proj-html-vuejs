@@ -6,16 +6,30 @@ main {
     .btn_primary {
         background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
         color: $light;
+
+        &:hover {
+            background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+            color: $light;
+        }
     }
 
     .btn_secondary {
         background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
         color: $light;
+
+        &:hover {
+            background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+            color: $light;
+        }
     }
 
     .btn_tertiary {
         background-image: linear-gradient(to right, $light, $midLight);
         color: $bgSecondaryGradient2;
+
+        &:hover {
+            color: $bgPrimaryGradient2;
+        }
     }
 
     .our_services {
@@ -250,6 +264,11 @@ main {
             .btn {
                 background-color: $light;
                 font-size: 0.8rem;
+
+                &:hover {
+                    background-color: $dark;
+                    color: $light;
+                }
             }
         }
 
@@ -291,7 +310,7 @@ main {
                 .cit_bg {
                     position: absolute;
                     top: 80px;
-                    left: 153px;
+                    left: 37%;
 
                     h1 {
                         font-weight: bold;
