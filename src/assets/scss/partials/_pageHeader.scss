@@ -13,15 +13,14 @@ header {
     }
 
     .navbar {
-        li:first-child {
-            a {
-                color: $bgSecondaryGradient2;
-            }
-        }
 
         li {
             a {
                 color: $light;
+
+                &:hover {
+                    color: $bgSecondaryGradient2;
+                }
             }
         }
     }
