@@ -28,7 +28,7 @@ export const state = reactive({
         },
     ],
 
-    footerMenu: [
+    footerMenuTop: [
         {
             title: 'Quick Links',
             subtitle: [
@@ -88,5 +88,26 @@ export const state = reactive({
                 }
             ]
         }
+    ],
+    footerMenuBottom: [
+        {
+            copy: '© 2023 Phlox All Rights Reserved'
+        },
+        {
+            icon: 'fa-brands fa-instagram',
+            link: '#'
+        },
+        {
+            icon: 'fa-brands fa-linkedin-in',
+            link: '#'
+        },
+        {
+            icon: 'fa-brands fa-facebook-f',
+            link: '#'
+        },
+        {
+            icon: 'fa-brands fa-twitter',
+            link: '#'
+        },
     ]
 });

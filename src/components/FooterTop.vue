@@ -24,7 +24,7 @@ export default {
                 </p>
             </div>
             <!-- /col -->
-            <div class="col" v-for="menu in state.footerMenu">
+            <div class="col" v-for="menu in state.footerMenuTop">
                 <h4>{{ menu.title }}</h4>
                 <ul v-for="item in menu.subtitle">
                     <li v-if="item.link"><a :href="item.link">{{ item.item }}</a></li>

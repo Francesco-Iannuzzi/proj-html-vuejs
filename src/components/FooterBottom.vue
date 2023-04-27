@@ -1,9 +1,10 @@
 <script>
+import { state } from "../state";
 export default {
     name: "FooterBottom",
     data() {
         return {
-
+            state
         }
     }
 }
@@ -12,21 +13,12 @@ export default {
 <template>
     <div class="footer_bottom container d-flex justify-content-between">
         <div class="copyright">
-            <span> &copy; 2023 Phlox All Rights Reserved</span>
+            <span v-for="item in state.footerMenuBottom"> {{ item.copy }}</span>
         </div>
         <div class="social me-5">
             <ul class=" list-unstyled d-flex gap-4">
-                <li>
-                    <font-awesome-icon icon="fa-brands fa-instagram" />
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-brands fa-facebook-f" />
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                <li v-for="item in state.footerMenuBottom">
+                    <a :href="item.link"><font-awesome-icon :icon="item.icon" /></a>
                 </li>
             </ul>
         </div>
