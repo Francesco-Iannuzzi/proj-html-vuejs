@@ -18,7 +18,7 @@ export default {
         <div class="social me-5">
             <ul class=" list-unstyled d-flex gap-4">
                 <li v-for="item in state.footerMenuBottom">
-                    <a :href="item.link"><font-awesome-icon :icon="item.icon" /></a>
+                    <a v-if="item.icon" :href="item.link"><font-awesome-icon :icon="item.icon" /></a>
                 </li>
             </ul>
         </div>
