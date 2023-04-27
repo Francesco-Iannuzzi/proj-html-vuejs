@@ -2,5 +2,12 @@ import { createApp } from 'vue'
 import './assets/scss/app.scss'
 import App from './App.vue'
 import bootstrap from '/node_modules/bootstrap/scss/bootstrap.scss'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+library.add(faInstagram, faLinkedinIn, faFacebookF, faTwitter)
 
-createApp(App).mount('#app')
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

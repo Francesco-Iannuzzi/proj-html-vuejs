@@ -51,7 +51,8 @@ footer {
     }
 
     .footer_top {
-        padding: 8rem 0;
+        padding-top: 8rem;
+        padding-bottom: 4rem;
 
         .logo {
             filter: brightness(100);
@@ -86,5 +87,22 @@ footer {
         }
     }
 
-    .footer_bottom {}
+    .footer_bottom {
+
+        .copyright {
+
+            span {
+                font-size: 0.8rem;
+                font-weight: lighter;
+                color: $itemFooter;
+            }
+        }
+
+        .social {
+
+            li {
+                color: $light;
+            }
+        }
+    }
 }
