@@ -1,4 +1,5 @@
 <script>
+import { state } from "../state";
 import LogoElement from './LogoElement.vue';
 export default {
     name: "FooterTop",
@@ -7,7 +8,7 @@ export default {
     },
     data() {
         return {
-
+            state
         }
     }
 }
@@ -15,7 +16,7 @@ export default {
 
 <template>
     <div class="footer_top container">
-        <div class="row">
+        <div class="row gap-5">
             <div class="col">
                 <LogoElement class="pb-4"></LogoElement>
                 <p>
@@ -23,38 +24,11 @@ export default {
                 </p>
             </div>
             <!-- /col -->
-            <div class="col">
-                <ul>
-                    <li>
-                        <h4>Quick Links</h4>
-                    </li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-            <!-- /col -->
-            <div class="col">
-                <ul>
-                    <li>
-                        <h4>Resources</h4>
-                    </li>
-                    <li><a href="#">Art Design</a></li>
-                    <li><a href="#">Computer</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Networking</a></li>
-                    <li><a href="#">Web Security</a></li>
-                </ul>
-            </div>
-            <!-- /col -->
-            <div class="col">
-                <ul>
-                    <li>
-                        <h4>Contact Us</h4>
-                    </li>
-                    <li><span>Address:</span> Patricia C.Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</li>
-                    <li><span>Phone:</span> +99(0)101 0000 888</li>
-                    <li><span>Email:</span> info@yourdomain.com</li>
+            <div class="col" v-for="menu in state.footerMenu">
+                <h4>{{ menu.title }}</h4>
+                <ul v-for="item in menu.subtitle">
+                    <li v-if="item.link"><a :href="item.link">{{ item.item }}</a></li>
+                    <li v-else-if="item.info"><span>{{ item.item }}</span> {{ item.info }}</li>
                 </ul>
             </div>
             <!-- /col -->

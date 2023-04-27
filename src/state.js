@@ -33,7 +33,7 @@ export const state = reactive({
             title: 'Quick Links',
             subtitle: [
                 {
-                    item: 'service',
+                    item: 'Services',
                     link: '#'
                 },
                 {
@@ -43,7 +43,7 @@ export const state = reactive({
                 {
                     item: 'Blog',
                     link: '#'
-                },
+                }
             ],
         },
         {
@@ -76,15 +76,15 @@ export const state = reactive({
             subtitle: [
                 {
                     item: 'Address:',
-                    link: 'Patricia C.Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051'
+                    info: 'Patricia C.Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051'
                 },
                 {
                     item: 'Phone:',
-                    link: '+99(0)101 0000 888'
+                    info: '+99(0)101 0000 888'
                 },
                 {
                     item: 'Email:',
-                    link: 'info@yourdomain.com'
+                    info: 'info@yourdomain.com'
                 }
             ]
         }
