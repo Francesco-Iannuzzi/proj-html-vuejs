@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="testimonial">
+    <section id="testimonial" class="testimonial">
         <div class="container">
             <div class="testimonial_title text-center pb-5">
                 <h5>

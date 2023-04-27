@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="blog">
+    <section id="blog">
         <div class="container">
             <div class="blog_title text-center">
                 <h5>

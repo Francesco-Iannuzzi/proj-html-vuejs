@@ -32,7 +32,7 @@ main {
         }
     }
 
-    .our_services {
+    #our_service {
         background-color: $light;
 
         .our_services_title {
@@ -133,10 +133,23 @@ main {
             }
 
             .portfolio_button {
+                position: relative;
+
                 button {
                     color: $bgSecondaryGradient2;
                     border-color: $bgSecondaryGradient2;
                 }
+            }
+        }
+
+        .portfolio_bottom {
+
+            h5 {
+                color: blue;
+            }
+
+            p {
+                color: blue;
             }
         }
     }
@@ -232,7 +245,7 @@ main {
         }
     }
 
-    .blog {
+    #blog {
         background-color: $light;
         padding: 20rem 0 5rem 0;
 
@@ -314,7 +327,7 @@ main {
 
     }
 
-    .testimonial {
+    #testimonial {
         background-color: $light;
         padding: 8rem 0;
 

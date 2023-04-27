@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-    <footer>
+    <footer id="site_footer">
         <SectionEmail></SectionEmail>
         <!-- /email -->
         <FooterTop></FooterTop>

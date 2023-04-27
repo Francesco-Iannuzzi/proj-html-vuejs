@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-    <header>
+    <header id="site_header">
         <div class="container">
             <nav class="navbar navbar-expand">
                 <div class="container">
