@@ -2,7 +2,6 @@
 
 footer {
     background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
-    height: 20rem;
     position: relative;
 
     .email {
@@ -50,4 +49,42 @@ footer {
             }
         }
     }
+
+    .footer_top {
+        padding: 8rem 0;
+
+        .logo {
+            filter: brightness(100);
+        }
+
+        h4 {
+            font-size: 1rem;
+            color: $light;
+        }
+
+        p,
+        a {
+            font-size: 0.8rem;
+            color: $itemFooter;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                line-height: 2rem;
+                font-size: 0.8rem;
+                font-weight: lighter;
+                color: $itemFooter;
+
+                span {
+                    color: $light;
+                }
+            }
+        }
+    }
+
+    .footer_bottom {}
 }
