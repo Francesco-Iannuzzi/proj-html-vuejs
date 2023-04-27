@@ -89,7 +89,7 @@ main {
 
     .price_list {
         background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
-        position: relative;
+
 
         .price_list_title {
 
@@ -257,6 +257,7 @@ main {
 
     .testimonial {
         background-color: $light;
+        padding: 8rem 0;
 
         .testimonial_title {
 

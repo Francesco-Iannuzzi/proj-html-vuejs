@@ -1,6 +1,11 @@
 <script>
+import SectionEmail from './SectionEmail.vue';
+
 export default {
     name: "PageFooter",
+    components: {
+        SectionEmail,
+    },
     data() {
         return {
 
@@ -11,7 +16,8 @@ export default {
 
 <template>
     <footer>
-
+        <SectionEmail></SectionEmail>
+        <!-- /email -->
     </footer>
     <!-- /footer -->
 </template>

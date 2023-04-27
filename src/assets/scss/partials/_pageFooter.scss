@@ -1,6 +1,53 @@
 @use "./variables" as *;
 
 footer {
-    background-color: yellow;
+    background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
     height: 20rem;
+    position: relative;
+
+    .email {
+        position: absolute;
+        top: -70px;
+        left: 15%;
+
+        .card {
+            background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+            height: 10rem;
+
+            h2 {
+                font-size: 2rem;
+                color: $light;
+            }
+
+            p {
+                font-size: 0.7rem;
+                color: $light;
+            }
+        }
+
+        .email_title {
+            width: 50%;
+        }
+
+        .email_input {
+            width: 50%;
+
+            .email_mail {
+                background-color: $light;
+                border-radius: 5rem;
+                height: 3rem;
+                width: 25rem;
+
+                input {
+                    width: 70%;
+                }
+
+                .btn_primary {
+                    width: 30%;
+                    background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+                    color: $light;
+                }
+            }
+        }
+    }
 }
