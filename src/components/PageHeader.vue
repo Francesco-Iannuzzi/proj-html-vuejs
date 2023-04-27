@@ -8,10 +8,7 @@ export default {
     },
     data() {
         return {};
-    },
-    mounted() {
-    },
-    components: { LogoElement }
+    }
 }
 </script>
 
