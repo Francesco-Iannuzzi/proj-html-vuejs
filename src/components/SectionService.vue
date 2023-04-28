@@ -44,9 +44,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
-                            <div class="arrow align-self-center rounded-circle">
+                            <button class="arrow align-self-center rounded-circle border-0">
                                 &rarr;
-                            </div>
+                            </button>
                         </div>
                         <!-- /item_card_text -->
                     </div>
@@ -67,9 +67,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
-                            <div class="arrow align-self-center rounded-circle">
+                            <button class="arrow align-self-center rounded-circle border-0">
                                 &rarr;
-                            </div>
+                            </button>
                         </div>
                         <!-- /item_card_text -->
                     </div>
@@ -90,9 +90,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
-                            <div class="arrow align-self-center rounded-circle">
+                            <button class="arrow align-self-center rounded-circle border-0">
                                 &rarr;
-                            </div>
+                            </button>
                         </div>
                         <!-- /item_card_text -->
                     </div>
@@ -113,9 +113,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
-                            <div class="arrow align-self-center rounded-circle">
+                            <button class="arrow align-self-center rounded-circle border-0">
                                 &rarr;
-                            </div>
+                            </button>
                         </div>
                         <!-- /item_card_text -->
                     </div>

@@ -27,6 +27,7 @@
             padding-bottom: 4rem;
 
             .item_card {
+                margin-bottom: 1rem;
 
                 .item_card_img {
                     z-index: 3;
@@ -49,10 +50,11 @@
                 .item_card_text {
                     z-index: 2;
                     background-color: $light;
-                    padding: 2rem;
+                    padding: 0.5rem 2rem;
 
                     .arrow {
                         aspect-ratio: 1 / 1;
+                        background-color: $light;
                         line-height: 1rem;
                         padding: 1rem;
                         color: $light;
