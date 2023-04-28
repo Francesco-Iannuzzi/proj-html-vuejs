@@ -1,9 +1,10 @@
 <script>
+import nemoodar from '../assets/img/nemoodar.png'
 export default {
     name: "SectionStart",
     data() {
         return {
-
+            nemoodar
         }
     }
 }
@@ -13,7 +14,7 @@ export default {
     <section class="start_project py-5">
         <div class="container">
             <div class="row justify-content-between pb-5">
-                <div class="start_project_left col-5 py-5">
+                <div class="start_project_left col-5 py-5" :style="{ backgroundImage: `url(${nemoodar})` }">
                     <img class="img-fluid" src="../assets/img/men-data.png" alt="">
                 </div>
                 <!-- /start_project_left -->

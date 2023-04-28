@@ -96,6 +96,11 @@ main {
     .start_project {
         background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
 
+        .start_project_left {
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
         .start_project_right {
             margin-top: 8rem;
 
@@ -144,9 +149,13 @@ main {
 
         .portfolio_bottom {
 
-            .carousel {
 
-                .col {
+            .carousel {
+                animation: carousel 50s linear infinite;
+                overflow: hidden;
+
+
+                .wrapper {
                     .carousel_img {
                         z-index: 2;
                         margin-bottom: -3rem;
@@ -155,6 +164,7 @@ main {
                         img {
                             border-radius: 1rem;
                         }
+
                     }
 
                     .carousel_text {
@@ -184,6 +194,21 @@ main {
                         span {
                             color: $light;
                         }
+                    }
+                }
+
+                @keyframes carousel {
+                    0% {
+                        transform: translate3d(0, 0, 0);
+                    }
+
+                    50% {
+                        transform: translate3d(-100px, 0, 0);
+                    }
+
+
+                    100% {
+                        transform: translate3d(0, 0, 0);
                     }
                 }
             }
@@ -225,6 +250,7 @@ main {
                         border: none;
                         border-radius: 1rem;
                         position: relative;
+                        box-shadow: $bgNumber 0 0 20px 0px;
 
                         ul {
                             list-style: none;

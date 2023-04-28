@@ -28,6 +28,29 @@ export const state = reactive({
         },
     ],
 
+    carouselItems: [
+        {
+            image: '84316050-0af0-49db-a53a-241d47ddad0e-2-790x576.jpg',
+            title: 'Basket of flower on table',
+            description: 'Branding Strategy',
+        },
+        {
+            image: 'DRY-1-790x576.jpg',
+            title: 'Basket of flower on table2',
+            description: 'Branding Strategy2',
+        },
+        {
+            image: '8wa60okr-1-790x576.jpg',
+            title: 'Basket of flower on table3',
+            description: 'Branding Strategy3',
+        },
+        {
+            image: 'a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg',
+            title: 'Basket of flower on table4',
+            description: 'Branding Strategy4',
+        },
+    ],
+
     footerMenuTop: [
         {
             title: 'Quick Links',

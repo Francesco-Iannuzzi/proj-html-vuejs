@@ -12,7 +12,7 @@ export default {
 
 <template>
     <div class="menu_nav navbar" id="navbarSupportedContent">
-        <ul class="navbar-nav me-4 mb-2 mb-lg-0" v-for="item in state.headerMenu">
+        <ul class="navbar-nav me-2 mb-2" v-for="item in state.headerMenu">
             <li class="nav-item">
                 <a class="nav-link" :href="item.link">{{ item.title }}</a>
             </li>

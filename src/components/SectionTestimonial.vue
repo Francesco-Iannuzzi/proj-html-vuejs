@@ -96,31 +96,31 @@ export default {
             <div class="testimonial_company row">
                 <div class="col">
                     <div class="card border-0">
-                        <img class="w-50 align-self-center" src="../assets/img/client-1-1.png" alt="">
+                        <img class="img-fluid align-self-center" src="../assets/img/client-1-1.png" alt="">
                     </div>
                 </div>
                 <!-- /col -->
                 <div class="col">
                     <div class="card border-0">
-                        <img class="w-50 align-self-center" src="../assets/img/clienty-2.png" alt="">
+                        <img class="img-fluid align-self-center" src="../assets/img/clienty-2.png" alt="">
                     </div>
                 </div>
                 <!-- /col -->
                 <div class="col">
                     <div class="card border-0">
-                        <img class="w-50 align-self-center" src="../assets/img/clienty-3.png" alt="">
+                        <img class="img-fluid align-self-center" src="../assets/img/clienty-3.png" alt="">
                     </div>
                 </div>
                 <!-- /col -->
                 <div class="col">
                     <div class="card border-0">
-                        <img class="w-50 align-self-center" src="../assets/img/clienty-4.png" alt="">
+                        <img class="img-fluid align-self-center" src="../assets/img/clienty-4.png" alt="">
                     </div>
                 </div>
                 <!-- /col -->
                 <div class="col">
                     <div class="card border-0">
-                        <img class="w-50 align-self-center" src="../assets/img/client-5.png" alt="">
+                        <img class="img-fluid align-self-center" src="../assets/img/client-5.png" alt="">
                     </div>
                 </div>
                 <!-- /col -->

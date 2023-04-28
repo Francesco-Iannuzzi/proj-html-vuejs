@@ -28,6 +28,7 @@ export default {
         <div class="price_list_plans">
             <div class="container">
                 <div class="row">
+
                     <div class="col">
                         <div class="card container text-center py-5">
                             <div>
@@ -69,6 +70,7 @@ export default {
                         <!-- /card -->
                     </div>
                     <!-- /col -->
+
                     <div class="col">
                         <div class="card container text-center py-5">
                             <div>
@@ -110,6 +112,7 @@ export default {
                         <!-- /card -->
                     </div>
                     <!-- /col -->
+
                     <div class="col">
                         <div class="card container text-center py-5">
                             <div>
@@ -151,6 +154,7 @@ export default {
                         <!-- /card -->
                     </div>
                     <!-- /col -->
+
                 </div>
             </div>
         </div>

@@ -1,9 +1,21 @@
 <script>
+import { state } from "../state.js";
 export default {
     name: "SectionPortfolio",
     data() {
         return {
-
+            state
+        }
+    },
+    methods: {
+        getImageUrl(name) {
+            return new URL(`../assets/img/${name}`, import.meta.url).href
+        },
+        prev() {
+            console.log('cliccato prev');
+        },
+        next() {
+            console.log('cliccato next');
         }
     },
     mounted() {
@@ -14,6 +26,7 @@ export default {
 <template>
     <section id="portfolio" class="portfolio py-5">
         <div class="portfolio_top container d-flex justify-content-between pb-5">
+
             <div class="portfolio_title">
                 <h5>
                     Portfolio
@@ -25,55 +38,26 @@ export default {
                 </div>
             </div>
             <!-- /portfolio_title -->
-            <div class="portfolio_button d-flex align-items-end">
-                <button class="btn border-2 rounded-circle me-3"> &larr; </button>
-                <button class="btn border-2 rounded-circle"> &rarr; </button>
+
+            <div class="portfolio_button d-flex align-items-end gap-3">
+                <button class="prev btn border-2 rounded-circle" @click="prev"> &larr; </button>
+                <button class="next btn border-2 rounded-circle" @click="next"> &rarr; </button>
             </div>
             <!-- /portfolio_button -->
+
         </div>
         <!-- /portfolio_top -->
 
         <div class="portfolio_bottom container-fluid">
             <div class="carousel row">
-                <div class="col">
+
+                <div class="wrapper col py-4" v-for="item in state.carouselItems">
                     <div class="carousel_img card border-0 rounded-5">
-                        <img class="img-fluid" src="../assets/img/84316050-0af0-49db-a53a-241d47ddad0e-2-790x576.jpg"
-                            alt="">
+                        <img class="img-fluid" :src="getImageUrl(item.image)" alt="">
                     </div>
                     <div class="carousel_text card border-0 flex-row justify-content-between">
-                        <h5 class="m-0">Basket of flower on table</h5>
-                        <span>Branding Strategy</span>
-                    </div>
-                </div>
-                <!-- /col -->
-                <div class="col">
-                    <div class="carousel_img card border-0 rounded-5">
-                        <img class="img-fluid" src="../assets/img/DRY-1-790x576.jpg" alt="">
-                    </div>
-                    <div class="carousel_text card border-0 flex-row justify-content-between">
-                        <h5 class="m-0">Basket of flower on table</h5>
-                        <span>Branding Strategy</span>
-                    </div>
-                </div>
-                <!-- /col -->
-                <div class="col">
-                    <div class="carousel_img card border-0 rounded-5">
-                        <img class="img-fluid" src="../assets/img/8wa60okr-1-790x576.jpg" alt="">
-                    </div>
-                    <div class="carousel_text card border-0 flex-row justify-content-between">
-                        <h5 class="m-0">Basket of flower on table</h5>
-                        <span>Branding Strategy</span>
-                    </div>
-                </div>
-                <!-- /col -->
-                <div class="col">
-                    <div class="carousel_img card border-0 rounded-5">
-                        <img class="img-fluid" src="../assets/img/a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg"
-                            alt="">
-                    </div>
-                    <div class="carousel_text card border-0 flex-row justify-content-between">
-                        <h5 class="m-0">Basket of flower on table</h5>
-                        <span>Branding Strategy</span>
+                        <h5 class="m-0">{{ item.title }}</h5>
+                        <span>{{ item.description }}</span>
                     </div>
                 </div>
                 <!-- /col -->

@@ -10,9 +10,9 @@ export default {
 </script>
 
 <template>
-    <section class="jumbo">
+    <section class="jumbo container-fluid">
         <div class="row pb-5">
-            <div class="jumbo_left col-6">
+            <div class="jumbo_left col-lg-6">
                 <div class="pb-4">
                     <h1>
                         Business Planning
@@ -35,7 +35,7 @@ export default {
             </div>
             <!-- /jumbo_left -->
 
-            <div class="jumbo_right col-6 py-5">
+            <div class="jumbo_right col-lg-6 py-5">
                 <img class="img-fluid" src="../assets/img/header.png" alt="">
             </div>
             <!-- /jumbo_right -->
