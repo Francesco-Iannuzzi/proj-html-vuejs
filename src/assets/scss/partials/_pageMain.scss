@@ -89,14 +89,14 @@ main {
                 &:hover>.item_card_img {
 
                     .card {
-                        box-shadow: $bgNumber 0 0 20px 0px;
+                        box-shadow: $bgCard 0 0 20px 0px;
                     }
                 }
 
                 &:hover>.item_card_text {
                     background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
                     color: $light;
-                    box-shadow: $bgNumber 0 0 20px 0px;
+                    box-shadow: $bgCard 0 0 20px 0px;
 
                     .arrow {
                         background-color: $bgSecondaryGradient2;
@@ -271,7 +271,7 @@ main {
                         border: none;
                         border-radius: 1rem;
                         position: relative;
-                        box-shadow: $bgNumber 0 0 20px 0px;
+                        box-shadow: $bgCard 0 0 20px 0px;
 
                         ul {
                             list-style: none;
@@ -357,6 +357,7 @@ main {
                     background-image: url("/src/assets/img/headway-537308-unsplash-1380x703.jpg");
                     background-size: cover;
                     color: $light;
+                    box-shadow: $bgCard 0 0 20px 0px;
                     border-radius: 1rem;
 
                     span {
@@ -380,6 +381,7 @@ main {
                     height: 20rem;
                     background-image: linear-gradient(to bottom right, $myBgGradient2, $myBgGradient1);
                     color: $light;
+                    box-shadow: $bgCard 0 0 20px 0px;
                     border-radius: 1rem;
 
                     span {

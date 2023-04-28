@@ -62,7 +62,7 @@ export default {
                                     <span> &rarr; </span>
                                 </button>
                             </div>
-                            <div class="number_bg">
+                            <div class="number_bg d-none d-lg-block">
                                 <h1>40</h1>
                             </div>
                             <!-- /number_bg -->
@@ -104,7 +104,7 @@ export default {
                                     <span> &rarr; </span>
                                 </button>
                             </div>
-                            <div class="number_bg">
+                            <div class="number_bg d-none d-lg-block">
                                 <h1>60</h1>
                             </div>
                             <!-- /number_bg -->
@@ -146,7 +146,7 @@ export default {
                                     <span> &rarr; </span>
                                 </button>
                             </div>
-                            <div class="number_bg">
+                            <div class="number_bg d-none d-lg-block">
                                 <h1>80</h1>
                             </div>
                             <!-- /number_bg -->

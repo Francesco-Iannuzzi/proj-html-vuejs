@@ -15,6 +15,7 @@ footer {
         .card {
             background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
             height: 10rem;
+            box-shadow: $bgCard 0 -5px 20px 0px;
 
             h2 {
                 font-size: 2rem;

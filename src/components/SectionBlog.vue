@@ -55,7 +55,7 @@ export default {
                         <p>
                             <strong>Clearing Corporation get SEBI nod to invest in overnight funds</strong>
                         </p>
-                        <p class="fw-light">
+                        <p class="fw-light d-none d-lg-block">
                             When, while the lovely valley teems with vapour around meand the meridian sun
                         </p>
                         <div>
@@ -71,7 +71,7 @@ export default {
                         <p>
                             <strong>Shabnam Dhillion, Wife of RSSB chief Gurider Dhillon, passes away in London</strong>
                         </p>
-                        <p class="fw-light">
+                        <p class="fw-light d-none d-lg-block">
                             When, while the lovely valley teems with vapour around meand the meridian sun
                         </p>
                         <div>
