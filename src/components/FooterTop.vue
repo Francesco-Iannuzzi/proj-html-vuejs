@@ -27,11 +27,6 @@ export default {
             </div>
             <!-- /col -->
             <div class="col" v-for="item in state.footerMenuTop">
-                <!-- <h4>{{ menu.title }}</h4>
-                <ul v-for="item in menu.subtitle">
-                    <li v-if="item.link"><a :href="item.link">{{ item.item }}</a></li>
-                    <li v-else-if="item.info"><span>{{ item.item }}</span> {{ item.info }}</li>
-                </ul> -->
                 <ItemFooter :item="item"></ItemFooter>
             </div>
             <!-- /col -->

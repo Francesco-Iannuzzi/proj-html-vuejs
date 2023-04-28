@@ -43,6 +43,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
+                            <div class="arrow align-self-center rounded-circle">
+                                &rarr;
+                            </div>
                         </div>
                         <!-- /item_card_text -->
                     </div>
@@ -63,6 +66,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
+                            <div class="arrow align-self-center rounded-circle">
+                                &rarr;
+                            </div>
                         </div>
                         <!-- /item_card_text -->
                     </div>
@@ -83,6 +89,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
+                            <div class="arrow align-self-center rounded-circle">
+                                &rarr;
+                            </div>
                         </div>
                         <!-- /item_card_text -->
                     </div>
@@ -103,6 +112,9 @@ export default {
                                 When, while the lovely valley teems with vapour around meand the meridian sun strikes the
                                 upper
                             </p>
+                            <div class="arrow align-self-center rounded-circle">
+                                &rarr;
+                            </div>
                         </div>
                         <!-- /item_card_text -->
                     </div>

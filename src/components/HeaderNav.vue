@@ -19,7 +19,6 @@ export default {
 
         <ul class="navbar-nav me-4 mb-2 mb-lg-0 d-none d-lg-flex" v-for="item in state.headerMenu">
             <li class="nav-item">
-                <!-- <a class="nav-link" :href="item.link">{{ item.title }}</a> -->
                 <ItemHeader :item="item"></ItemHeader>
             </li>
         </ul>

@@ -59,7 +59,7 @@ footer {
     }
 
     .footer_top {
-        padding-top: 8rem;
+        padding-top: 10rem;
         padding-bottom: 4rem;
 
         .logo {
@@ -84,7 +84,7 @@ footer {
             padding: 0;
 
             li {
-                line-height: 2rem;
+                line-height: 1rem;
                 font-size: 0.8rem;
                 font-weight: lighter;
                 color: $itemFooter;
@@ -123,6 +123,11 @@ footer {
             position: absolute;
             bottom: 50px;
             right: 50px;
+
+            a {
+                text-decoration: none;
+                color: $dark;
+            }
         }
 
         .questions {

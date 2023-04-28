@@ -55,8 +55,9 @@ main {
         .our_services_items {
 
             .item_card {
+
                 .item_card_img {
-                    z-index: 2;
+                    z-index: 3;
 
                     .card {
                         display: inline-block;
@@ -74,7 +75,15 @@ main {
                 }
 
                 .item_card_text {
-                    z-index: 1;
+                    z-index: 2;
+                    background-color: $light;
+
+                    .arrow {
+                        aspect-ratio: 1 / 1;
+                        line-height: 1rem;
+                        padding: 1rem;
+                        color: $light;
+                    }
                 }
 
                 &:hover>.item_card_img {
@@ -87,6 +96,11 @@ main {
                 &:hover>.item_card_text {
                     background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
                     color: $light;
+                    box-shadow: $bgNumber 0 0 20px 0px;
+
+                    .arrow {
+                        background-color: $bgSecondaryGradient2;
+                    }
                 }
             }
 
@@ -153,7 +167,7 @@ main {
 
             .carousel {
                 animation: carousel 50s linear infinite;
-                overflow: hidden;
+                overflow-x: hidden;
 
 
                 .wrapper {

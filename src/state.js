@@ -36,19 +36,19 @@ export const state = reactive({
         },
         {
             image: 'DRY-1-790x576.jpg',
-            title: 'Basket of flower on table2',
-            description: 'Branding Strategy2',
+            title: 'Purinky Products',
+            description: 'Digital Experience',
         },
         {
             image: '8wa60okr-1-790x576.jpg',
-            title: 'Basket of flower on table3',
-            description: 'Branding Strategy3',
+            title: 'Satisfy Poster',
+            description: 'Branding Strategy',
         },
         {
             image: 'a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg',
-            title: 'Basket of flower on table4',
-            description: 'Branding Strategy4',
-        },
+            title: 'Mock-up',
+            description: 'Experience',
+        }
     ],
 
     footerMenuTop: [

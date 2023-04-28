@@ -22,7 +22,9 @@ export default {
                 </li>
             </ul>
         </div>
-        <button class="upstairs btn rounded-circle"> &uarr; </button>
+        <button class="upstairs btn rounded-circle">
+            <a href="#site_header"> &uarr; </a>
+        </button>
         <button class="questions btn rounded-circle">
             <font-awesome-icon icon="fa-regular fa-comment" />
         </button>
