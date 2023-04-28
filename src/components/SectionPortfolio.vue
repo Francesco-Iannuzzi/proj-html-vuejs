@@ -27,7 +27,7 @@ export default {
                 </h5>
                 <div>
                     <h2>
-                        <strong>Latest</strong>
+                        <strong>Latest </strong>
                         <span class="fw-light">Work</span>
                     </h2>
                 </div>

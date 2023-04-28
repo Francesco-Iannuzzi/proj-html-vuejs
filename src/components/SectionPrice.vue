@@ -17,7 +17,7 @@ export default {
             </h5>
             <div class="d-flex justify-content-center">
                 <h2>
-                    <strong>Our</strong>
+                    <strong>Our </strong>
                     <span class="fw-light">Pricing</span>
                 </h2>
             </div>
