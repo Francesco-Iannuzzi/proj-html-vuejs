@@ -10,12 +10,6 @@ export default {
     methods: {
         getImageUrl(name) {
             return new URL(`../assets/img/${name}`, import.meta.url).href
-        },
-        prev() {
-            console.log('cliccato prev');
-        },
-        next() {
-            console.log('cliccato next');
         }
     },
     mounted() {
@@ -41,8 +35,8 @@ export default {
             <!-- /portfolio_title -->
 
             <div class="portfolio_button d-flex align-items-end gap-3">
-                <button class="prev btn border-2 rounded-circle" @click="prev"> &larr; </button>
-                <button class="next btn border-2 rounded-circle" @click="next"> &rarr; </button>
+                <button class="prev btn border-2 rounded-circle"> &larr; </button>
+                <button class="next btn border-2 rounded-circle"> &rarr; </button>
             </div>
             <!-- /portfolio_button -->
 

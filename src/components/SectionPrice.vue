@@ -42,7 +42,7 @@ export default {
                             </div>
                             <!-- /title -->
                             <div class="pb-5 pt-3">
-                                <span> &dollar; </span>
+                                <span class="dollar"> &dollar; </span>
                                 <h1>
                                     <strong>40</strong>
                                 </h1>
@@ -84,7 +84,7 @@ export default {
                             </div>
                             <!-- /title -->
                             <div class="pb-5 pt-3">
-                                <span> &dollar; </span>
+                                <span class="dollar"> &dollar; </span>
                                 <h1>
                                     <strong>60</strong>
                                 </h1>
@@ -126,7 +126,7 @@ export default {
                             </div>
                             <!-- /title -->
                             <div class="pb-5 pt-3">
-                                <span> &dollar; </span>
+                                <span class="dollar"> &dollar; </span>
                                 <h1>
                                     <strong>80</strong>
                                 </h1>

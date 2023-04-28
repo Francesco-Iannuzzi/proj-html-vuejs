@@ -47,11 +47,11 @@ footer {
 
                 .btn_primary {
                     width: 30%;
-                    background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
-                    color: $light;
+
 
                     &:hover {
                         background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+                        box-shadow: none;
                         color: $light;
                     }
                 }

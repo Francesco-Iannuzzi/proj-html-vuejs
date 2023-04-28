@@ -43,7 +43,7 @@ export default {
                                 </p>
                             </div>
                             <div class="col-4 align-self-end">
-                                <button class="btn border-0 rounded-5 px-4 ">Read More</button>
+                                <button class="btn_tertiary btn border-0 rounded-5 px-4 ">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default {
                             When, while the lovely valley teems with vapour around meand the meridian sun
                         </p>
                         <div>
-                            <button class="btn border-0 rounded-5 px-4 ">Read More</button>
+                            <button class="btn_tertiary btn border-0 rounded-5 px-4 ">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export default {
                             When, while the lovely valley teems with vapour around meand the meridian sun
                         </p>
                         <div>
-                            <button class="btn border-0 rounded-5 px-4 ">Read More</button>
+                            <button class="btn_tertiary btn border-0 rounded-5 px-4 ">Read More</button>
                         </div>
                     </div>
                 </div>

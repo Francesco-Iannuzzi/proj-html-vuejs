@@ -25,26 +25,6 @@
         }
     }
 
-    .btn_primary {
-        background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
-        color: $light;
-
-        &:hover {
-            box-shadow: $bgPrimaryGradient2 0 0 20px 0px;
-            color: $light;
-        }
-    }
-
-    .btn_secondary {
-        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
-        color: $light;
-
-        &:hover {
-            box-shadow: $bgSecondaryGradient2 0 0 20px 0px;
-            color: $light;
-        }
-    }
-
     #jumbo {
         .jumbo_left {
             margin-top: 8rem;

@@ -1,1 +1,33 @@
 @use "./variables" as *;
+
+body {
+    .btn_primary {
+        background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+        color: $light;
+
+        &:hover {
+            box-shadow: $bgPrimaryGradient2 0 0 20px 0px;
+            color: $light;
+        }
+    }
+
+    .btn_secondary {
+        background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+        color: $light;
+
+        &:hover {
+            box-shadow: $bgSecondaryGradient2 0 0 20px 0px;
+            color: $light;
+        }
+    }
+
+    .btn_tertiary {
+        background-image: linear-gradient(to right, $light, $midLight);
+        color: $bgSecondaryGradient2;
+
+        &:hover {
+            box-shadow: $bgPrimaryGradient1 0 0 20px 0px;
+            color: $bgPrimaryGradient2;
+        }
+    }
+}

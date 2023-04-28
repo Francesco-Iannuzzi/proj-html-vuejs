@@ -26,7 +26,7 @@ export default {
 </script>
 
 <template>
-    <main>
+    <main id="site_main">
         <SectionService></SectionService>
         <!-- /our_services -->
         <SectionStart></SectionStart>
