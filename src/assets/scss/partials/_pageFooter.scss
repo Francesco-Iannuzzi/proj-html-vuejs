@@ -1,13 +1,16 @@
 @use "./variables" as *;
 
 footer {
-    background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
+    background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
     position: relative;
 
     .email {
         position: absolute;
         top: -70px;
-        left: 150px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
 
         .card {
             background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);

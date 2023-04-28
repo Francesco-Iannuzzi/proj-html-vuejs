@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="price_list py-5">
+    <section class="price_list">
         <div class="price_list_title text-center">
             <h5>
                 Price List
@@ -29,7 +29,7 @@ export default {
             <div class="container">
                 <div class="row">
 
-                    <div class="col">
+                    <div class="plan col">
                         <div class="card container text-center py-5">
                             <div>
                                 <h2>
@@ -71,7 +71,7 @@ export default {
                     </div>
                     <!-- /col -->
 
-                    <div class="col">
+                    <div class="plan col">
                         <div class="card container text-center py-5">
                             <div>
                                 <h2>
@@ -113,7 +113,7 @@ export default {
                     </div>
                     <!-- /col -->
 
-                    <div class="col">
+                    <div class="plan col">
                         <div class="card container text-center py-5">
                             <div>
                                 <h2>

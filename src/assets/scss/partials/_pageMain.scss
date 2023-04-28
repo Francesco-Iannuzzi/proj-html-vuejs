@@ -8,7 +8,7 @@ main {
         color: $light;
 
         &:hover {
-            background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+            box-shadow: $bgPrimaryGradient2 0 0 20px 0px;
             color: $light;
         }
     }
@@ -18,7 +18,7 @@ main {
         color: $light;
 
         &:hover {
-            background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+            box-shadow: $bgSecondaryGradient2 0 0 20px 0px;
             color: $light;
         }
     }
@@ -28,6 +28,7 @@ main {
         color: $bgSecondaryGradient2;
 
         &:hover {
+            box-shadow: $bgPrimaryGradient1 0 0 20px 0px;
             color: $bgPrimaryGradient2;
         }
     }
@@ -94,7 +95,7 @@ main {
     }
 
     .start_project {
-        background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
+        background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
 
         .start_project_left {
             background-size: contain;
@@ -216,8 +217,10 @@ main {
     }
 
     .price_list {
-        background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
-
+        background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
+        position: relative;
+        padding-top: 5rem;
+        padding-bottom: 25rem;
 
         .price_list_title {
 
@@ -239,12 +242,16 @@ main {
         }
 
         .price_list_plans {
-            height: 25rem;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
 
             .row {
                 padding-top: 5rem;
 
-                .col {
+                .plan {
                     .card {
                         background-color: $light;
                         border: none;
@@ -280,8 +287,8 @@ main {
 
                         .number_bg {
                             position: absolute;
-                            right: -10px;
-                            top: -60px;
+                            top: -3.8rem;
+                            right: -0.4rem;
 
                             h1 {
                                 font-weight: bold;
@@ -292,7 +299,7 @@ main {
                     }
                 }
 
-                .col:nth-child(2) {
+                .plan:nth-child(2) {
 
                     .card {
                         background-image: linear-gradient(to bottom right, $bgSecondaryGradient1, $bgSecondaryGradient2);
@@ -357,7 +364,7 @@ main {
 
                 .card {
                     height: 20rem;
-                    background-image: linear-gradient(to bottom right, $dark, $bgPrimaryGradient2);
+                    background-image: linear-gradient(to bottom right, $myBgGradient2, $myBgGradient1);
                     color: $light;
                     border-radius: 1rem;
 
@@ -381,8 +388,8 @@ main {
                 font-size: 0.8rem;
 
                 &:hover {
-                    background-color: $dark;
-                    color: $light;
+                    box-shadow: $bgSecondaryGradient2 0 0 20px 0px;
+                    color: $bgSecondaryGradient2;
                 }
             }
         }
@@ -424,8 +431,11 @@ main {
 
                 .cit_bg {
                     position: absolute;
-                    top: 80px;
-                    left: 37%;
+                    top: 4rem;
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
 
                     h1 {
                         font-weight: bold;

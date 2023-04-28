@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 header {
-    background-image: linear-gradient(to bottom, $bgPrimaryGradient2, $dark);
+    background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
 
     .logo {
         filter: brightness(100);
@@ -30,7 +30,7 @@ header {
         color: $light;
 
         &:hover {
-            background-image: linear-gradient(to right, $bgSecondaryGradient1, $bgSecondaryGradient2);
+            box-shadow: $bgPrimaryGradient2 0 0 20px 0px;
             color: $light;
         }
     }
@@ -40,7 +40,7 @@ header {
         color: $light;
 
         &:hover {
-            background-image: linear-gradient(to right, $bgPrimaryGradient1, $bgPrimaryGradient2);
+            box-shadow: $bgSecondaryGradient2 0 0 20px 0px;
             color: $light;
         }
     }

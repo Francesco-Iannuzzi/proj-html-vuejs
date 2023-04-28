@@ -14,11 +14,13 @@ export default {
     <section class="start_project py-5">
         <div class="container">
             <div class="row justify-content-between pb-5">
-                <div class="start_project_left col-5 py-5" :style="{ backgroundImage: `url(${nemoodar})` }">
+
+                <div class="start_project_left col-lg-5 py-5" :style="{ backgroundImage: `url(${nemoodar})` }">
                     <img class="img-fluid" src="../assets/img/men-data.png" alt="">
                 </div>
                 <!-- /start_project_left -->
-                <div class="start_project_right col-6">
+
+                <div class="start_project_right col-lg-6">
                     <div class="star_project_title pb-4">
                         <h5 class="fw-light">Start Your Project</h5>
                         <h1>
@@ -42,6 +44,7 @@ export default {
                     <!-- /button -->
                 </div>
                 <!-- /start_project_right -->
+
             </div>
         </div>
     </section>

@@ -12,6 +12,7 @@ export default {
 <template>
     <section class="jumbo container-fluid">
         <div class="row pb-5">
+
             <div class="jumbo_left col-lg-6">
                 <div class="pb-4">
                     <h1>
@@ -39,6 +40,7 @@ export default {
                 <img class="img-fluid" src="../assets/img/header.png" alt="">
             </div>
             <!-- /jumbo_right -->
+
         </div>
     </section>
 </template>

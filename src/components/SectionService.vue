@@ -28,7 +28,8 @@ export default {
             <!-- /our_services_title -->
 
             <div class="our_services_items row py-5">
-                <div class="col">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="item_card card text-center border-0">
                         <div class="item_card_img container">
                             <div class="card py-2 border-0 rounded-4">
@@ -47,7 +48,8 @@ export default {
                     </div>
                 </div>
                 <!-- /col -->
-                <div class="col">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="item_card card text-center border-0">
                         <div class="item_card_img container">
                             <div class="card py-2 border-0 rounded-4">
@@ -66,7 +68,8 @@ export default {
                     </div>
                 </div>
                 <!-- /col -->
-                <div class="col">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="item_card card text-center border-0">
                         <div class="item_card_img container">
                             <div class="card py-2 border-0 rounded-4">
@@ -85,7 +88,8 @@ export default {
                     </div>
                 </div>
                 <!-- /col -->
-                <div class="col">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="item_card card text-center border-0">
                         <div class="item_card_img container">
                             <div class="card py-2 border-0 rounded-4">
@@ -104,6 +108,7 @@ export default {
                     </div>
                 </div>
                 <!-- /col -->
+
             </div>
             <!-- /our_services_items -->
 
