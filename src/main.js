@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import './assets/scss/app.scss'
 import App from './App.vue'
 import bootstrap from '/node_modules/bootstrap/scss/bootstrap.scss'
-import bootstrapJs from '/node_modules/bootstrap/js/src/carousel'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
