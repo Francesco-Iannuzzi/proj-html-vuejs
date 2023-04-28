@@ -18,7 +18,8 @@ export default {
                 </h5>
                 <div class="d-flex justify-content-center">
                     <h2>
-                        <strong>Latest</strong> Posts
+                        <strong>Latest</strong>
+                        <span class="fw-light">Posts</span>
                     </h2>
                 </div>
                 <p>

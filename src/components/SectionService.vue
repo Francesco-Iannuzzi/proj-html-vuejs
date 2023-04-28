@@ -18,7 +18,8 @@ export default {
                 </h5>
                 <div class="d-flex justify-content-center">
                     <h2>
-                        <strong>What</strong> We Do
+                        <strong>What</strong>
+                        <span class="fw-light">We Do</span>
                     </h2>
                 </div>
                 <p>
