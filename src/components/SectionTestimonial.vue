@@ -10,9 +10,9 @@ export default {
 </script>
 
 <template>
-    <section id="testimonial" class="testimonial">
+    <section id="testimonial">
         <div class="container">
-            <div class="testimonial_title text-center pb-5">
+            <div class="testimonial_title text-center">
                 <h5>
                     Testimonials
                 </h5>

@@ -1,6 +1,6 @@
 @use "./variables" as *;
 
-header {
+#site_header {
     background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
 
     .logo {
@@ -45,7 +45,7 @@ header {
         }
     }
 
-    .jumbo {
+    #jumbo {
         .jumbo_left {
             margin-top: 8rem;
 

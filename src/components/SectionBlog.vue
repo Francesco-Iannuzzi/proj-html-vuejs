@@ -12,7 +12,7 @@ export default {
 <template>
     <section id="blog">
         <div class="container">
-            <div class="blog_title text-center">
+            <div class="blog_title text-center pb-5">
                 <h5>
                     Blog
                 </h5>

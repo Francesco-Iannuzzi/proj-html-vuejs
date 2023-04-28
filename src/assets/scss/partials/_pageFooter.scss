@@ -59,9 +59,9 @@ footer {
         }
     }
 
-    .footer_top {
+    #footer_top {
         padding-top: 10rem;
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
 
         .logo {
             filter: brightness(100);
@@ -97,7 +97,7 @@ footer {
         }
     }
 
-    .footer_bottom {
+    #footer_bottom {
         position: relative;
 
         .copyright {

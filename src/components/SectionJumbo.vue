@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="jumbo container-fluid">
+    <section id="jumbo" class="container-fluid">
         <div class="row pb-5">
 
             <div class="jumbo_left col-lg-6">

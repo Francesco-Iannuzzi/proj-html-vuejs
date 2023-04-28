@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section id="our_service" class="py-5">
+    <section id="our_service">
         <div class="container">
             <div class="our_services_title text-center">
                 <h5>
@@ -27,7 +27,7 @@ export default {
             </div>
             <!-- /our_services_title -->
 
-            <div class="our_services_items row py-5">
+            <div class="our_services_items row">
 
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="item_card card text-center border-0">

@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <section class="price_list">
+    <section id="price_list">
         <div class="price_list_title text-center">
             <h5>
                 Price List

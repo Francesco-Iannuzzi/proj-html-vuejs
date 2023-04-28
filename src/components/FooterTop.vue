@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-    <div class="footer_top container">
+    <div id="footer_top" class="container">
         <div class="row gap-5">
             <div class="col">
                 <LogoElement class="pb-4"></LogoElement>

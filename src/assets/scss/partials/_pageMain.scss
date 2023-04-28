@@ -35,8 +35,10 @@ main {
 
     #our_service {
         background-color: $light;
+        padding: 8rem 0;
 
         .our_services_title {
+            padding-bottom: 5rem;
 
             h2 {
                 font-size: 2rem;
@@ -53,6 +55,7 @@ main {
         }
 
         .our_services_items {
+            padding-bottom: 4rem;
 
             .item_card {
 
@@ -77,6 +80,7 @@ main {
                 .item_card_text {
                     z-index: 2;
                     background-color: $light;
+                    padding: 2rem;
 
                     .arrow {
                         aspect-ratio: 1 / 1;
@@ -108,8 +112,9 @@ main {
 
     }
 
-    .start_project {
+    #start_project {
         background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
+        padding: 6rem 0;
 
         .start_project_left {
             background-size: contain;
@@ -136,8 +141,9 @@ main {
         }
     }
 
-    .portfolio {
+    #portfolio {
         background-color: $light;
+        padding: 5rem 0;
 
         .portfolio_top {
 
@@ -230,7 +236,7 @@ main {
         }
     }
 
-    .price_list {
+    #price_list {
         background-image: linear-gradient(to bottom, $myBgGradient1, $myBgGradient2);
         position: relative;
         padding-top: 5rem;
@@ -417,6 +423,7 @@ main {
         padding: 8rem 0;
 
         .testimonial_title {
+            padding-bottom: 6rem;
 
             h2 {
                 font-size: 2rem;

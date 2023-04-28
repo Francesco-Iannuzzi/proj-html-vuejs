@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <div class="footer_bottom container d-flex justify-content-between">
+    <div id="footer_bottom" class="container d-flex justify-content-between">
         <div class="copyright">
             <span v-for="item in state.footerMenuBottom"> {{ item.copy }}</span>
         </div>

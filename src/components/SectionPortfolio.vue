@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-    <section id="portfolio" class="portfolio py-5">
+    <section id="portfolio">
         <div class="portfolio_top container d-flex justify-content-between pb-5">
 
             <div class="portfolio_title">
